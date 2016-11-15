@@ -1,5 +1,5 @@
 exports.up = function(knex, Promise) {
-  return knex.schema.createTable('contacts', function(table){
+  return knex.schema.createTable('info', function(table){
     table.increments();
     table.string('name');
     table.string('email');
@@ -8,5 +8,5 @@ exports.up = function(knex, Promise) {
 };
 
 exports.down = function(knex, Promise) {
-  return knex.schema.dropTableIfExists('contacts');
+  return knex.schema.dropTableIfExists('info');
 };
