@@ -1,8 +1,16 @@
 var express = require('express');
 var router = express.Router();
+var service = require('../lib/services')
+var knex = require('../db/knex')
+
 
 router.get('/', function(req, res, next) {
-  res.render('index');
+  service.all().then(function(service, services){
+    res.render('index', {
+      service: service.rows[0].service,
+      services: service.rows[1].service
+    });
+  })
 });
 
 

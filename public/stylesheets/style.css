@@ -8,6 +8,7 @@
 .main_container{
   background-color: #FEFFFF;
   margin-top: 7%;
+  padding-bottom: 2%;
 }
 
 a:hover{
@@ -17,4 +18,10 @@ a:hover{
 
 .main_logo{
   margin-top: .5vh;
+}
+
+
+.middle_container{
+  padding-top: 3%;
+  background-color: #F0F4F7;
 }
