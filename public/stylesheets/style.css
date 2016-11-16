@@ -10,6 +10,12 @@
   margin-top: 7%;
   padding-bottom: 2%;
 }
+.services_text_style{
+  color: #FEBC00;
+}
+.container_text{
+  color: #707A80
+}
 
 a:hover{
   background-color: transparent !important;
@@ -24,4 +30,20 @@ a:hover{
 .middle_container{
   padding-top: 3%;
   background-color: #F0F4F7;
+  padding-bottom: 2%;
+}
+.service_title_text{
+  color: #00b7f1;
+}
+.button_style{
+  width: 12%;
+  color: #fff;
+  background-color: #febe10;
+}
+
+.learn_button_location{
+  padding-top: 3%;
+}
+.service_space{
+  margin-top: 5%;
 }
