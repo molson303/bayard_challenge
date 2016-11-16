@@ -1,8 +1,20 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+.navbar-fixed-top{
+  background-color: #00b7f1;
+}
+.nav li a{
+  color: #f1f3f6;
 }
 
-a {
-  color: #00B7FF;
+.main_container{
+  background-color: #FEFFFF;
+  margin-top: 2%;
+}
+
+a:hover{
+  background-color: transparent !important;
+  color: #323e48 !important;
+}
+
+.main_logo{
+  margin-top: .5vh;
 }
