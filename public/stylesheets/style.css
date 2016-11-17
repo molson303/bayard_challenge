@@ -26,7 +26,7 @@ a:hover{
   margin-top: .5vh;
 }
 
-
+/*MIDDLE CONTAINER */
 .middle_container{
   padding-top: 3%;
   background-color: #F0F4F7;
@@ -47,3 +47,22 @@ a:hover{
 .service_space{
   margin-top: 5%;
 }
+/*END MIDDLE CONTAINER*/
+
+/*BOTTOM CONTAINER*/
+.bottom_container{
+  background-color:#d4631c;
+}
+.newsletter_container{
+  border: 1px solid #f78546;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-color: green;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width:40%;
+
+}
+
+
+/*END BOTTOM CONTAINER*/
