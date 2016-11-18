@@ -3,6 +3,10 @@
 }
 .nav li a{
   color: #f1f3f6;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: .8em;
+  font-weight: 600;
+  letter-spacing: .5px;
 }
 
 .main_container{
@@ -12,9 +16,13 @@
 }
 .services_text_style{
   color: #FEBC00;
+  font-family: 'Lora', serif;
+  font-weight: 500;
 }
 .container_text{
-  color: #707A80
+  color: #707A80;
+  font-family: 'Lora', serif;
+
 }
 
 a:hover{
@@ -36,9 +44,14 @@ a:hover{
 }
 .service_title_text{
   color: #00b7f1;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
 }
 .middle_title_text{
   margin-left 3%;
+  font-family: 'Lora', serif;
+  font-weight: 600;
+
 }
 .button_style{
   width: 12%;
@@ -81,6 +94,9 @@ a:hover{
 }
 .footer_text_color li a{
   color: #aeb5be;
+  font-family: 'Source Sans Pro', sans-serif;
+
+
 }
 
 /*END BOTTOM CONTAINER*/
