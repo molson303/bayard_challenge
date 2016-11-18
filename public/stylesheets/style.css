@@ -37,6 +37,9 @@ a:hover{
 .service_title_text{
   color: #00b7f1;
 }
+.middle_title_text{
+  margin-left 3%;
+}
 .button_style{
   width: 12%;
   color: #fff;
