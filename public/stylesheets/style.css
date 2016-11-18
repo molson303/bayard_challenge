@@ -25,7 +25,7 @@
 
 }
 
-a:hover{
+ .nav a:hover{
   background-color: transparent !important;
   color: #323e48 !important;
 }
@@ -66,7 +66,7 @@ a:hover{
 .learn_button_location{
   padding-top: 3%;
 }
-.service_space{
+.service_spacer{
   margin-top: 5%;
 }
 /*END MIDDLE CONTAINER*/
@@ -85,7 +85,10 @@ a:hover{
   width:40%;
 
 }
-
+.copyrite{
+  font-family: 'Lora', serif;
+  color: #aeb5be;
+}
 .navbar-fixed-bottom{
   background-color: #313E48;
 }
@@ -95,8 +98,12 @@ a:hover{
 .footer_text_color li a{
   color: #aeb5be;
   font-family: 'Source Sans Pro', sans-serif;
-
-
+}
+.footer_text_color:hover{
+  color:#fff;
+}
+.footer_text_color li a:hover {
+  color:#fff !important;
 }
 
 /*END BOTTOM CONTAINER*/
