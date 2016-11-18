@@ -69,5 +69,14 @@ a:hover{
 
 }
 
+.navbar-fixed-bottom{
+  background-color: #313E48;
+}
+.footer_text_color{
+  color: #aeb5be;
+}
+.footer_text_color li a{
+  color: #aeb5be;
+}
 
 /*END BOTTOM CONTAINER*/
