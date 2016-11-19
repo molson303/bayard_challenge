@@ -12,6 +12,9 @@ router.get('/', function(req, res, next) {
     });
   })
 });
+router.post('/response', function(req, res, next){
+})
+
 
 
 

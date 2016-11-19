@@ -22,7 +22,6 @@
 .container_text{
   color: #707A80;
   font-family: 'Lora', serif;
-
 }
 
  .nav a:hover{
@@ -78,17 +77,31 @@
 }
 .newsletter_container{
   border: 1px solid #f78546;
-  background-color: green;
+  border-radius: 5%;
+  background-color: #d4631c;
   margin-top: 4%;
   width:40%;
   padding-bottom: 1%;
   margin-left: 30%;
 }
+.newsletter_header_text{
+  color: #f1f3f6;
+  font-family: 'Lora', serif;
+}
+.newsletter_header_position{
+}
 input{
   text-align: center;
+  background-color: #f1f3f6;
 }
-hr{
-  border-color: black;
+label{
+  color: #f1f3f6;
+}
+
+.hr-tag{
+  border: 1.9px solid #323e48;
+  width: 12%;
+  border-width: thin;
 }
 .form-group{
   margin-left: 5%;
@@ -98,6 +111,7 @@ hr{
   color: black;
   background-color: #febe10;
 }
+
 .submit-btn-location{
   margin-left: 5%;
   margin-right: 5%;
