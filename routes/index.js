@@ -12,10 +12,12 @@ router.get('/', function(req, res, next) {
     });
   })
 });
-router.post('/response', function(req, res, next){
-})
 
-
+router.post('/index', function (req, res) {
+   service.create(req.body).then(function () {
+     res.redirect('/');
+   });
+ })
 
 
 
