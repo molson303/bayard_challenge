@@ -206,3 +206,60 @@ label{
     height: 40vh;
   }
 }
+
+@media only screen and (min-device-width : 200px) and (max-device-width : 414px) {
+  .icon-bar{
+    background-color: #f1f3f6;
+    margin-top: 60%;
+  }
+  .main_logo_size{
+    height: 5vh;
+  }
+  .main_logo{
+    margin-left: 10%;
+  }
+  .main_container{
+    background-color: #FEFFFF;
+    margin-top: 20%;
+    padding-bottom: 2%;
+    padding-top: 5%;
+  }
+  .middle_container{
+    padding-bottom: 5%;
+  }
+  .services_image{
+    height: 8vh;
+    margin-left: -5%;
+    margin-top: 10%;
+    display: inline-block;
+  }
+  .button_style{
+    width: 40%;
+    margin-left: -60%;
+  }
+  .newsletter_container{
+    border: 1px solid #f78546;
+    border-radius: 5%;
+    background-color: #d4631c;
+    margin-top: 10%;
+    width:90%;
+    margin-left: 5%;
+    padding-bottom: 2%;
+  }
+  .copyrite{
+    text-align: center;
+  }
+  .navbar-nav{
+    display: inline-block;
+  }
+  .mobile-footer{
+    width: 50%;
+  }
+  .newsletter_header_text{
+    font-size: 1.5em;
+  }
+  .services_text_style{
+    font-size: 2em;
+    font-weight: bold;
+  }
+}
