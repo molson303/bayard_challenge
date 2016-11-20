@@ -163,7 +163,7 @@ label{
 /*END BOTTOM CONTAINER*/
 
 
-@media only screen and (min-device-width : 766px) and (max-device-width : 1000px) {
+@media only screen and (min-device-width : 769px) and (max-device-width : 1000px) {
   .services_image{
     height: 20vh;
     margin-left: -25%;
@@ -180,5 +180,29 @@ label{
     width:60%;
     margin-left: 20%;
     padding-bottom: 2%;
+  }
+}
+
+@media only screen and (min-device-width : 400px) and (max-device-width : 768px) {
+  .services_image{
+    height: 15vh;
+    margin-left: -25%;
+    margin-top: 10%;
+  }
+  .button_style{
+    width: 20%;
+  }
+  .newsletter_container{
+    border: 1px solid #f78546;
+    border-radius: 5%;
+    background-color: #d4631c;
+    margin-top: 10%;
+    width:60%;
+    margin-left: 20%;
+    padding-bottom: 2%;
+  }
+  .bottom_container{
+    background-color:#d4631c;
+    height: 40vh;
   }
 }
