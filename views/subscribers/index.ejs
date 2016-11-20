@@ -46,9 +46,9 @@
     <section class="main_container">
         <div class="container">
             <div class="col-md-12">
-                <h1>Subscription Page</h1>
+                <h1 class="container_text">Subscription Page</h1>
                 <table class="table table-striped">
-                    <thead>
+                    <thead class="container_text">
                         <tr>
                             <th>#</th>
                             <th>Subscribers Name</th>
@@ -58,7 +58,7 @@
                     </thead>
                     <tbody>
                         <% for (var i = 0; i < subscribers.length; i++ ){%>
-                            <tr>
+                            <tr class="container_text">
                                 <th scope="row"><%= subscribers[i].id%></th>
                                 <td><%= subscribers[i].name%></td>
                                 <td></td>
@@ -82,13 +82,13 @@
                 <div class="pull-right">
                     <ul class="nav navbar-nav footer_text_color">
                         <li>
-                            <a href="#">Home</a>
+                            <a href="/subscribers">Home</a>
                         </li>
                         <li>
                             <a href="#">About Us</a>
                         </li>
                         <li>
-                            <a href="#">Our Services</a>
+                            <a href="/">Our Services</a>
                         </li>
                         <li>
                             <a href="#">Blog</a>

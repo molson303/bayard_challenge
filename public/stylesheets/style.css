@@ -24,13 +24,15 @@
   font-family: 'Lora', serif;
 }
 
+
  .nav a:hover{
   background-color: transparent !important;
   color: #323e48 !important;
 }
 
 .main_logo{
-  margin-top: .5vh;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 /*MIDDLE CONTAINER */
@@ -84,12 +86,22 @@
   padding-bottom: 1%;
   margin-left: 30%;
 }
+
+
+.newsletter_text_container{
+  background-color: #d4631c;
+  margin-left: 9%;
+  margin-right: 9%;
+
+}
 .newsletter_header_text{
-  color: #f1f3f6;
-  font-family: 'Lora', serif;
+    color: #f1f3f6;
+    font-family: 'Lora', serif;
+    position: relative;
+    z-index: 1;
+    margin-top: -4%;
 }
-.newsletter_header_position{
-}
+
 input{
   text-align: center;
   background-color: #f1f3f6;
@@ -108,8 +120,15 @@ label{
   margin-right: 5%;
 }
 .submit-btn-style {
-  color: black;
+  font-weight: bold !important;
+  letter-spacing: .5px;
+  color: #f1f3f6;
   background-color: #febe10;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.submit-btn-style:hover{
+  color: #f1f3f6 !important;
+  background-color: #323e48;
 }
 
 .submit-btn-location{
@@ -119,7 +138,10 @@ label{
 .copyrite{
   font-family: 'Lora', serif;
   color: #aeb5be;
+  margin-top: 10%;
+  margin-bottom: 6%;
 }
+
 .navbar-fixed-bottom{
   background-color: #313E48;
 }
