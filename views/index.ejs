@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -12,9 +12,9 @@
     <link href="stylesheets/css/full-slider.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Source+Sans+Pro:400,600,700" rel="stylesheet">
-  </head>
+</head>
 <body>
-  <nav class="navbar navbar-fixed-top " role="navigation">
+    <nav class="navbar navbar-fixed-top " role="navigation">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -24,7 +24,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <div class="main_logo">
-                  <a href="/"><img class="main_logo_size" src="images/logo.png" alt=""/></a>
+                    <a href="/"><img class="main_logo_size" src="images/logo.png" alt="" /></a>
                 </div>
             </div>
             <div class="collapse navbar-collapse spacer" id="bs-example-navbar-collapse-1">
@@ -45,98 +45,96 @@
             </div>
         </div>
     </nav>
-  <section class="main_container">
-    <div class="container">
-      <div class="row">
-            <div class="col-xs-2 col-md-2 col-lg-2">
-                <img class="services_image" src="images/icon-ourservices.png" alt="" />
-            </div>
-            <div class="col-md-10 col-lg-10 ">
-              <h1 class="services_text_style">Our Services</h1>
-              <p class="container_text">
-                <%=service%>
-              </p>
-            </div>
-          </div>
-        </div>
+    <section class="main_container">
         <div class="container">
-      </div>
-  </section>
+            <div class="row">
+                <div class="col-xs-2 col-md-2 col-lg-2">
+                    <img class="services_image" src="images/icon-ourservices.png" alt="" />
+                </div>
+                <div class="col-md-10 col-lg-10 ">
+                    <h1 class="services_text_style">Our Services</h1>
+                    <p class="container_text">
+                        <%=service%>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="middle_container">
-      <div class="container">
-        <h4 class="middle_title_text">Why you should hire us</h4>
-        <div class="row">
-          <div class="col-md-6">
-            <h5 class="service_title_text">SERVICE 1</h5>
-              <p class="container_text">
-                <%=services%>
-              </p>
-              <div>
-              <h5 class="service_title_text service_spacer">SERVICE 2</h5>
-              <p class="container_text">
-                <%=services%>
-              </p>
+        <div class="container">
+            <h4 class="middle_title_text">Why you should hire us</h4>
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="service_title_text">SERVICE 1</h5>
+                    <p class="container_text">
+                        <%=services%>
+                    </p>
+                    <div>
+                        <h5 class="service_title_text service_spacer">SERVICE 2</h5>
+                        <p class="container_text">
+                            <%=services%>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="service_title_text">SERVICE 3</h5>
+                    <p class="container_text">
+                        <%=services%>
+                    </p>
+                    <div>
+                        <h5 class="service_title_text service_spacer">SERVICE 4</h5>
+                        <p class="container_text">
+                            <%=services%>
+                        </p>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-md-6">
-              <h5 class="service_title_text">SERVICE 3</h5>
-              <p class="container_text">
-                <%=services%>
-              </p>
-            <div>
-              <h5 class="service_title_text service_spacer">SERVICE 4</h5>
-              <p class="container_text">
-                <%=services%>
-              </p>
+            <div class="text-center learn_button_location">
+                <button type="button" class="btn button_style" name="button">LEARN MORE</button>
             </div>
-          </div>
         </div>
-        <div class="text-center learn_button_location">
-          <button type="button" class="btn button_style" name="button">LEARN MORE</button>
+    </section>
+    <section class="bottom_container">
+        <div class="container">
+            <div class="row">
+                <div class="text-center">
+                    <div class="newsletter_container">
+                        <div class="newsletter_text_container">
+                            <h3 class="newsletter_header_text">Sign up for our newsletter</h3>
+                        </div>
+                        <hr class="hr-tag">
+                        <form class="" action="/index" method="post">
+                            <div class="form-group">
+                                <label for="InputName">YOUR NAME</label>
+                                <input type="text" name="name" class="form-control" id="InputName" placeholder="e.g. Dr. Bunsen Honeydew">
+                            </div>
+                            <div class="form-group">
+                                <label for="InputEmail">YOUR EMAIL</label>
+                                <input type="email" class="form-control" name="email" id="InputEmail" placeholder="e.g. Dr-Bunson-Honeydew@gmail.com">
+                            </div>
+                            <div class="submit-btn-location">
+                                <button type="submit" class="btn btn-block submit-btn-style">SIGN ME UP</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-  </section>
-<section class="bottom_container">
-  <div class="container">
-    <div class="row">
-      <div class="text-center">
-        <div class="newsletter_container">
-          <div class="newsletter_text_container">
-            <h3 class="newsletter_header_text">Sign up for our newsletter</h3>
-          </div>
-          <hr class="hr-tag">
-          <form class="" action="/index" method="post">
-            <div class="form-group">
-               <label for="InputName">YOUR NAME</label>
-              <input type="text" name="name" class="form-control" id="InputName" placeholder="e.g. Dr. Bunsen Honeydew">
-            </div>
-            <div class="form-group">
-               <label for="InputEmail">YOUR EMAIL</label>
-              <input type="email" class="form-control" name="email" id="InputEmail" placeholder="e.g. Dr-Bunson-Honeydew@gmail.com">
-            </div>
-            <div class="submit-btn-location">
-              <button type="submit" class="btn btn-block submit-btn-style">SIGN ME UP</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-  <footer class="footer_container">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <a class="mobile-footer" href="/subscribers">Home</a>
-          <a class="mobile-footer" href="#">About Us</a>
-          <a class="mobile-footer" href="/">Our Services</a>
-          <a class="mobile-footer" href="#">Blog</a>
-          <p class="copyright">&copy; Bayard Advertising</p>
+    </section>
+    <footer class="footer_container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <a class="mobile-footer" href="/subscribers">Home</a>
+                    <a class="mobile-footer" href="#">About Us</a>
+                    <a class="mobile-footer" href="/">Our Services</a>
+                    <a class="mobile-footer" href="#">Blog</a>
+                    <p class="copyright">&copy; BayardAdvertising</p>
 
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </footer>
+    </footer>
     <script src="js/service.js" charset="utf-8"></script>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
