@@ -248,12 +248,12 @@ label{
   }
   .copyrite{
     text-align: center;
-    margin-top: 1%;
+    margin-top: 4%;
   }
   .mobile-footer{
-    width: 30vw;
     color: #aeb5be !important;
     font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 10%;
   }
   .mobile-footer:hover{
     color: #f1f3f6 !important;
