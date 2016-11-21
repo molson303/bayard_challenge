@@ -1,3 +1,4 @@
+
 .navbar-fixed-top{
   background-color: #00b7f1;
 }
@@ -135,7 +136,7 @@ label{
   margin-left: 5%;
   margin-right: 5%;
 }
-.copyrite{
+.copyright{
   font-family: 'Lora', serif;
   color: #aeb5be;
   margin-top: 10%;
@@ -160,29 +161,58 @@ label{
 }
 
 /*END BOTTOM CONTAINER*/
+@media only screen and (min-device-width : 1920px) and (max-device-width : 2000px) {
 
-
-@media only screen and (min-device-width : 769px) and (max-device-width : 1000px) {
+  .spacer{
+    margin-left: 70% !important;
+  }
   .services_image{
-    height: 20vh;
-    margin-left: -25%;
-    margin-top: 10%;
+    height: 16vh;
+    margin-top: 25%;
   }
   .button_style{
-    width: 18%;
+    width: 20%;
   }
   .newsletter_container{
     border: 1px solid #f78546;
-    border-radius: 5%;
+    border-radius: 3%;
     background-color: #d4631c;
     margin-top: 10%;
-    width:60%;
-    margin-left: 20%;
+    width:40%;
+    margin-left: 30%;
     padding-bottom: 2%;
   }
+  .bottom_container{
+    background-color:#d4631c;
+    height: 50vh;
+  }
+  .footer_container{
+    background-color: #323e48;
+    border: 1px solid #323e48;
+    height:7vh;
+  }
+  .copyright{
+    vertical-align: top;
+    display: inline-block;
+    margin-top: -.1%;
+
+  }
+  .mobile-footer{
+    color: #aeb5be !important;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 2%;
+    font-size: 1em;
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    margin-top: 2%;
+  }
+
+
+
 }
-/*IPAD*/
-@media only screen and (min-device-width : 414px) and (max-device-width : 768px) {
+/*MEDIUM SCREENS*/
+@media only screen and (min-device-width : 1001px) and (max-device-width : 1919px) {
   .main_logo{
     margin-left: 25%;
   }
@@ -190,9 +220,62 @@ label{
     margin-left: 55% !important;
   }
   .services_image{
-    height: 15vh;
-    margin-left: -25%;
+    height: 12vh;
+    margin-left: %;
+    margin-top: 30%;
+  }
+  .button_style{
+    width: 20%;
+  }
+  .newsletter_container{
+    border: 1px solid #f78546;
+    border-radius: 3%;
+    background-color: #d4631c;
     margin-top: 10%;
+    width:40%;
+    margin-left: 30%;
+    padding-bottom: 2%;
+  }
+  .bottom_container{
+    background-color:#d4631c;
+    height: 40vh;
+  }
+  .footer_container{
+    background-color: #323e48;
+    border: 1px solid #323e48;
+    height:7vh;
+  }
+  .copyright{
+    vertical-align: top;
+    display: inline-block;
+    margin-top: -.1%;
+
+  }
+  .mobile-footer{
+    color: #aeb5be !important;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 2%;
+    font-size: 1em;
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    margin-top: 2%;
+  }
+
+}
+
+/*IPAD*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1000px) {
+  .main_logo{
+    margin-left: 25%;
+  }
+  .spacer{
+    margin-left: 55% !important;
+  }
+  .services_image{
+    height: 12vh;
+    margin-left: %;
+    margin-top: 30%;
   }
   .button_style{
     width: 20%;
@@ -215,10 +298,10 @@ label{
     border: 1px solid #323e48;
     height:7vh;
   }
-  .copyrite{
+  .copyright{
     vertical-align: top;
     display: inline-block;
-    margin-top: 3%;
+    margin-top: -.1%;
   }
   .mobile-footer{
     color: #aeb5be !important;
@@ -233,15 +316,14 @@ label{
 
 }
 /*IPHONE 6 PLUS*/
-@media only screen and (min-device-width : 414px) and (max-device-width : 500px) {
+@media only screen and (min-device-width : 414px) and (max-device-width : 767px) {
   .bottom_container{
     height: 45vh;
     padding-top: 2%;
   }
   .icon-bar{
     background-color: #f1f3f6;
-    margin-top: 60%;
-    margin-left: -200%;
+    margin-top: 50%;
   }
   .main_logo_size{
     height: 5vh;
@@ -277,15 +359,16 @@ label{
     margin-left: 5%;
     padding-bottom: 2%;
   }
-  .copyrite{
-    text-align: center;
-    margin-top: 4%;
+  .copyright{
     margin-left: 30%;
+    margin-top: 5%;
   }
+
   .mobile-footer{
     color: #aeb5be !important;
     font-family: 'Source Sans Pro', sans-serif;
     margin-left: 9%;
+    margin-top: 2%;
     float: left;
   }
   .mobile-footer:hover{
@@ -302,6 +385,7 @@ label{
     background-color: #323e48;
     padding-top: 1%;
     border: 1px solid #323e48;
+    height:15vh;
   }
   .nav li a{
     color: #f1f3f6;
@@ -329,8 +413,7 @@ label{
 @media only screen and (min-device-width : 375px) and (max-device-width : 413px) {
   .icon-bar{
     background-color: #f1f3f6;
-    margin-top: 60%;
-    margin-left: -200%;
+    margin-top: 30%;
   }
   .main_logo_size{
     height: 5vh;
@@ -358,7 +441,7 @@ label{
     margin-left: -60%;
   }
 
-  .copyrite{
+  .copyright{
     text-align: center;
     margin-top: 4%;
   }
@@ -430,8 +513,7 @@ label{
 @media only screen and (min-device-width : 320px) and (max-device-width : 374px) {
   .icon-bar{
     background-color: #f1f3f6;
-    margin-top: 60%;
-    margin-left: -200%;
+    margin-top: 20%;
   }
   .main_logo_size{
     height: 5vh;
@@ -459,7 +541,7 @@ label{
     margin-left: -60%;
   }
 
-  .copyrite{
+  .copyright{
     text-align: center;
     margin-top: 4%;
   }
