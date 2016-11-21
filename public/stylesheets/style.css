@@ -206,18 +206,32 @@ label{
   }
   .footer_container{
     background-color: #323e48;
+    padding-top: 1%;
+    border: 1px solid #323e48;
   }
+  .copyrite{
+    vertical-align: top;
+    display: inline-block;
+  }
+  .mobile-footer{
+    color: #aeb5be !important;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 4%;
+    font-size: 1em;
+    margin-top: 2%;
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+  }
+
 }
-/*IPHONE 6*/
-@media only screen and (min-device-width : 375px) and (max-device-width : 414px) {
+/*IPHONE 6 PLUS*/
+@media only screen and (min-device-width : 414px) and (max-device-width : 500px) {
   .bottom_container{
     height: 45vh;
     padding-top: 2%;
   }
-
-
-
-  /*.icon-bar{
+  .icon-bar{
     background-color: #f1f3f6;
     margin-top: 60%;
     margin-left: -200%;
@@ -259,11 +273,13 @@ label{
   .copyrite{
     text-align: center;
     margin-top: 4%;
+    margin-left: 35%;
   }
   .mobile-footer{
     color: #aeb5be !important;
     font-family: 'Source Sans Pro', sans-serif;
-    margin-left: 10%;
+    margin-left: 9%;
+    float: left;
   }
   .mobile-footer:hover{
     color: #f1f3f6 !important;
@@ -300,10 +316,10 @@ label{
   }
   .mobile_border{
     border-bottom: 1px solid #f78546;
-  }*/
+  }
 }
-/*IPHONE 5*/
-@media only screen and (min-device-width : 320px) and (max-device-width : 375px) {
+/*IPHONE 6*/
+@media only screen and (min-device-width : 375px) and (max-device-width : 413px) {
   .icon-bar{
     background-color: #f1f3f6;
     margin-top: 60%;
@@ -348,7 +364,108 @@ label{
     vertical-align: top;
 
   }
-  
+
+  .mobile-footer:hover{
+    color: #f1f3f6 !important;
+  }
+  .newsletter_header_text{
+    font-size: 1.5em;
+  }
+  .services_text_style{
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .footer_container{
+    background-color: #323e48;
+    padding-top: 3%;
+    border: 1px solid #323e48;
+  }
+
+  .newsletter_container{
+    border: 1px solid #f78546;
+    border-radius: 5%;
+    background-color: #d4631c;
+    margin-top: 10%;
+    width:90%;
+    margin-left: 5%;
+    padding-bottom: 3%;
+  }
+  .newsletter_header_text{
+    font-size: 1.2em;
+  }
+  .nav li a{
+    color: #f1f3f6;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: .8em;
+    font-weight: 900;
+    letter-spacing: .5px;
+  }
+  .navbar-collapse{
+    background-color: #d4631c;
+  }
+  .mobile_location_top{
+    text-align: right;
+    font-size: .95em !important;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  .nav a:hover{
+    color: #febe10 !important;
+  }
+  .mobile_border{
+    border-bottom: 1px solid #f78546;
+  }
+
+
+}
+
+
+/*IPHONE 5*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 374px) {
+  .icon-bar{
+    background-color: #f1f3f6;
+    margin-top: 60%;
+    margin-left: -200%;
+  }
+  .main_logo_size{
+    height: 5vh;
+  }
+  .main_logo{
+    margin-left: 10%;
+  }
+  .main_container{
+    background-color: #FEFFFF;
+    margin-top: 20%;
+    padding-bottom: 2%;
+    padding-top: 5%;
+  }
+  .middle_container{
+    padding-bottom: 5%;
+  }
+  .services_image{
+    height: 8vh;
+    margin-left: -5%;
+    margin-top: 10%;
+    display: inline-block;
+  }
+  .button_style{
+    width: 40%;
+    margin-left: -60%;
+  }
+
+  .copyrite{
+    text-align: center;
+    margin-top: 4%;
+  }
+  .mobile-footer{
+    color: #aeb5be !important;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 10%;
+    font-size: .8em;
+    display: inline-block;
+    vertical-align: top;
+
+  }
+
   .mobile-footer:hover{
     color: #f1f3f6 !important;
   }
