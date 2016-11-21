@@ -24,8 +24,7 @@
   font-family: 'Lora', serif;
 }
 
-
- .nav a:hover{
+.nav a:hover{
   background-color: transparent !important;
   color: #323e48 !important;
 }
@@ -257,7 +256,7 @@ label{
     font-family: 'Source Sans Pro', sans-serif;
   }
   .mobile-footer:hover{
-    color: #f1f3f6;
+    color: #f1f3f6 !important;
   }
   .newsletter_header_text{
     font-size: 1.5em;
@@ -271,6 +270,25 @@ label{
     padding-top: 1%;
     border: 1px solid #323e48;
   }
-
-
+  .nav li a{
+    color: #f1f3f6;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: .8em;
+    font-weight: 900;
+    letter-spacing: .5px;
+  }
+  .navbar-collapse{
+    background-color: #d4631c;
+  }
+  .mobile_location_top{
+    text-align: right;
+    font-size: .95em !important;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  .nav a:hover{
+    color: #febe10 !important;
+  }
+  .mobile_border{
+    border-bottom: 1px solid #f78546;
+  }
 }
