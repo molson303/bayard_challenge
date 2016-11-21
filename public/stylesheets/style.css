@@ -181,8 +181,8 @@ label{
     padding-bottom: 2%;
   }
 }
-
-@media only screen and (min-device-width : 400px) and (max-device-width : 768px) {
+/*IPAD*/
+@media only screen and (min-device-width : 414px) and (max-device-width : 768px) {
   .services_image{
     height: 15vh;
     margin-left: -25%;
@@ -204,10 +204,20 @@ label{
     background-color:#d4631c;
     height: 40vh;
   }
+  .footer_container{
+    background-color: #323e48;
+  }
 }
-
+/*IPHONE 6*/
 @media only screen and (min-device-width : 375px) and (max-device-width : 414px) {
-  .icon-bar{
+  .bottom_container{
+    height: 45vh;
+    padding-top: 2%;
+  }
+
+
+
+  /*.icon-bar{
     background-color: #f1f3f6;
     margin-top: 60%;
     margin-left: -200%;
@@ -290,9 +300,9 @@ label{
   }
   .mobile_border{
     border-bottom: 1px solid #f78546;
-  }
+  }*/
 }
-
+/*IPHONE 5*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 375px) {
   .icon-bar{
     background-color: #f1f3f6;
@@ -334,7 +344,11 @@ label{
     font-family: 'Source Sans Pro', sans-serif;
     margin-left: 10%;
     font-size: .8em;
+    display: inline-block;
+    vertical-align: top;
+
   }
+  
   .mobile-footer:hover{
     color: #f1f3f6 !important;
   }
@@ -385,6 +399,4 @@ label{
     border-bottom: 1px solid #f78546;
   }
 
-
-
-  }
+}
