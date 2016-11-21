@@ -183,6 +183,12 @@ label{
 }
 /*IPAD*/
 @media only screen and (min-device-width : 414px) and (max-device-width : 768px) {
+  .main_logo{
+    margin-left: 25%;
+  }
+  .spacer{
+    margin-left: 55% !important;
+  }
   .services_image{
     height: 15vh;
     margin-left: -25%;
@@ -202,26 +208,27 @@ label{
   }
   .bottom_container{
     background-color:#d4631c;
-    height: 40vh;
+    height: 36vh;
   }
   .footer_container{
     background-color: #323e48;
-    padding-top: 1%;
     border: 1px solid #323e48;
+    height:7vh;
   }
   .copyrite{
     vertical-align: top;
     display: inline-block;
+    margin-top: 3%;
   }
   .mobile-footer{
     color: #aeb5be !important;
     font-family: 'Source Sans Pro', sans-serif;
-    margin-left: 4%;
+    margin-left: 2%;
     font-size: 1em;
-    margin-top: 2%;
     display: inline-block;
     vertical-align: top;
     float: right;
+    margin-top: 3%;
   }
 
 }
@@ -273,7 +280,7 @@ label{
   .copyrite{
     text-align: center;
     margin-top: 4%;
-    margin-left: 35%;
+    margin-left: 30%;
   }
   .mobile-footer{
     color: #aeb5be !important;
