@@ -143,9 +143,7 @@ label{
   margin-bottom: 6%;
 }
 
-.navbar-fixed-bottom{
-  background-color: #313E48;
-}
+
 .footer_text_color{
   color: #aeb5be;
 }
@@ -189,19 +187,20 @@ label{
   .footer_container{
     background-color: #323e48;
     border: 1px solid #323e48;
-    height:7vh;
+    height:auto;
   }
   .copyright{
     vertical-align: top;
     display: inline-block;
-    margin-top: -.1%;
+    margin-top: 2%;
+    font-size: 1.3em;
 
   }
   .mobile-footer{
     color: #aeb5be !important;
     font-family: 'Source Sans Pro', sans-serif;
     margin-left: 2%;
-    font-size: 1em;
+    font-size: 1.2em;
     display: inline-block;
     vertical-align: top;
     float: right;
