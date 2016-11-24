@@ -36,9 +36,7 @@
     color: #323e48;
 }
 
-.main_logo {
 
-}
 
 
 /*MIDDLE CONTAINER */
@@ -70,11 +68,7 @@
     color: #fff !important;
 }
 
-.learn_button_location {
-}
 
-.service_spacer {
-}
 
 
 /*END MIDDLE CONTAINER*/
@@ -168,368 +162,44 @@ label {
 .mobile_border {
     border-bottom: 1px solid #f78546;
 }
-
+.mobile_location_top {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.icon-bar {
+    background-color: #f1f3f6;
+}
+.mobile-footer:hover {
+    color: #f1f3f6;
+}
+.mobile-footer {
+    color: #aeb5be;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.services_image {
+    height: 8vh;
+    margin-left: -5%;
+    margin-top: 10%;
+}
 /*END BOTTOM CONTAINER*/
 
-/*@media only screen and (min-device-width: 1824px) {
-    .spacer {
-        margin-left: 70% !important;
-    }
-    .services_image {
-        height: 16vh;
-        margin-top: 25%;
-    }
-    .button_style {
-        width: 20%;
-    }
-    .newsletter_container {
-        border: 1px solid #f78546;
-        border-radius: 3%;
-        background-color: #d4631c;
-        margin-top: 10%;
-        width: 40%;
-        margin-left: 30%;
-        padding-bottom: 2%;
-    }
-    .bottom_container {
-        background-color: #d4631c;
-        height: 50vh;
-    }
-    .footer_container {
-        background-color: #323e48;
-        border: 1px solid #323e48;
-        height: auto;
-    }
-    .copyright {
-        font-size: 1.2em;
-        margin-top: 2% !important;
-    }
-    .mobile-footer {
-        color: #aeb5be !important;
-        font-family: 'Source Sans Pro', sans-serif;
-        margin-left: 2%;
-        font-size: 1.2em;
-        display: inline-block;
-        vertical-align: top;
-        float: right;
-        margin-top: 4%;
-    }
-}*/
 
 
-/*MEDIUM SCREENS*/
-/*
-@media only screen and (min-device-width: 1001px) {
-    .main_logo {
-        margin-left: 25%;
-    }
-    .spacer {
-        margin-left: 55% !important;
-    }
-    .services_image {
-        height: 12vh;
-        margin-left: %;
-        margin-top: 30%;
-    }
-    .button_style {
-        width: 20%;
-    }
-    .newsletter_container {
-        border: 1px solid #f78546;
-        border-radius: 3%;
-        background-color: #d4631c;
-        margin-top: 10%;
-        width: 40%;
-        margin-left: 30%;
-        padding-bottom: 2%;
-    }
-    .bottom_container {
-        background-color: #d4631c;
-        height: 40vh;
-    }
-    .footer_container {
-        background-color: #323e48;
-        border: 1px solid #323e48;
-        height: auto;
-    }
-    .copyright {
-        font-size: 1.2em;
-        margin-top: 2% !important;
-    }
-    .mobile-footer {
-        color: #aeb5be !important;
-        font-family: 'Source Sans Pro', sans-serif;
-        margin-left: 2%;
-        font-size: 1em;
-        display: inline-block;
-        vertical-align: top;
-        float: right;
-        margin-top: 2%;
-    }
-}*/
-
-
-/*IPAD*/
-
-/*@media only screen and (min-device-width: 768px) and (max-device-width: 1000px) {
-    .main_logo {
-        margin-left: 25%;
-    }
-    .spacer {
-        margin-left: 55% !important;
-    }
-    .services_image {
-        height: 12vh;
-        margin-left: %;
-        margin-top: 30%;
-    }
-    .button_style {
-        width: 20%;
-    }
-    .newsletter_container {
-        border: 1px solid #f78546;
-        border-radius: 5%;
-        background-color: #d4631c;
-        margin-top: 10%;
-        width: 60%;
-        margin-left: 20%;
-        padding-bottom: 2%;
-    }
-    .bottom_container {
-        background-color: #d4631c;
-        height: 36vh;
-    }
-    .footer_container {
-        background-color: #323e48;
-        border: 1px solid #323e48;
-        height: auto;
-    }
-    .copyright {
-        vertical-align: top;
-        display: inline-block;
-        margin-top: 20px;
-    }
-    .mobile-footer {
-        color: #aeb5be !important;
-        font-family: 'Source Sans Pro', sans-serif;
-        margin-left: 2%;
-        font-size: 1em;
-        display: inline-block;
-        vertical-align: top;
-        float: right;
-        margin-top: 3%;
-    }
-}*/
-
-
-/*IPHONE 6 PLUS*/
-
-/*@media only screen and (min-device-width: 414px) and (max-device-width: 767px) {
-    .bottom_container {
-        height: 45vh;
-        padding-top: 2%;
-    }
-    .icon-bar {
-        background-color: #f1f3f6;
-        margin-top: 50%;
-    }
-    .main_logo_size {
-        height: 5vh;
-    }
-    .main_logo {
-        margin-left: 10%;
-    }
-    .main_container {
-        background-color: #FEFFFF;
-        margin-top: 20%;
-        padding-bottom: 2%;
-        padding-top: 5%;
-    }
-    .middle_container {
-        padding-bottom: 5%;
-    }
-    .services_image {
-        height: 8vh;
-        margin-left: -5%;
-        margin-top: 10%;
-        display: inline-block;
-    }
-    .button_style {
-        width: 40%;
-        margin-left: -60%;
-    }
-    .newsletter_container {
-        border: 1px solid #f78546;
-        border-radius: 5%;
-        background-color: #d4631c;
-        margin-top: 10%;
-        width: 90%;
-        margin-left: 5%;
-        padding-bottom: 2%;
-    }
-    .copyright {
-        margin-top: 10%;
-        text-align: center;
-        position: absolute;
-        margin-left: 28%;
-    }
-    .mobile-footer {
-        color: #aeb5be !important;
-        font-family: 'Source Sans Pro', sans-serif;
-        margin-left: 9%;
-        margin-top: 2%;
-        float: left;
-    }
-    .mobile-footer:hover {
-        color: #f1f3f6 !important;
-    }
-    .newsletter_header_text {
-        font-size: 1.5em;
-    }
-    .services_text_style {
-        font-size: 2em;
-        font-weight: bold;
-    }
-    .footer_container {
-        background-color: #323e48;
-        padding-top: 1%;
-        border: 1px solid #323e48;
-        height: 17vh;
-    }
-    .nav li a {
-        color: #f1f3f6;
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: .8em;
-        font-weight: 900;
-        letter-spacing: .5px;
-    }
-    .navbar-collapse {
-        background-color: #d4631c;
-    }
-    .mobile_location_top {
-        text-align: right;
-        font-size: .95em !important;
-        font-family: 'Source Sans Pro', sans-serif;
-    }
-    .nav a:hover {
-        color: #febe10 !important;
-    }
-    .mobile_border {
-        border-bottom: 1px solid #f78546;
-    }
-}*/
-
-
-/*IPHONE 6*/
-
-/*@media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
-    .icon-bar {
-        background-color: #f1f3f6;
-        margin-top: 30%;
-    }
-    .main_logo_size {
-        height: 5vh;
-    }
-    .main_logo {
-        margin-left: 10%;
-    }
-    .main_container {
-        background-color: #FEFFFF;
-        margin-top: 20%;
-        padding-bottom: 2%;
-        padding-top: 5%;
-    }
-    .middle_container {
-        padding-bottom: 5%;
-    }
-    .services_image {
-        height: 8vh;
-        margin-left: -5%;
-        margin-top: 10%;
-        display: inline-block;
-    }
-    .button_style {
-        width: 40%;
-        margin-left: -60%;
-    }
-    .copyright {
-        text-align: center;
-        margin-top: 4%;
-    }
-    .mobile-footer {
-        color: #aeb5be !important;
-        font-family: 'Source Sans Pro', sans-serif;
-        margin-left: 10%;
-        font-size: .8em;
-        display: inline-block;
-        vertical-align: top;
-    }
-    .mobile-footer:hover {
-        color: #f1f3f6 !important;
-    }
-    .newsletter_header_text {
-        font-size: 1.5em;
-    }
-    .services_text_style {
-        font-size: 2em;
-        font-weight: bold;
-    }
-    .footer_container {
-        background-color: #323e48;
-        padding-top: 3%;
-        border: 1px solid #323e48;
-    }
-    .newsletter_container {
-        border: 1px solid #f78546;
-        border-radius: 5%;
-        background-color: #d4631c;
-        margin-top: 10%;
-        width: 90%;
-        margin-left: 5%;
-        padding-bottom: 3%;
-    }
-    .newsletter_header_text {
-        font-size: 1.2em;
-    }
-    .nav li a {
-        color: #f1f3f6;
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: .8em;
-        font-weight: 900;
-        letter-spacing: .5px;
-    }
-    .navbar-collapse {
-        background-color: #d4631c;
-    }
-    .mobile_location_top {
-        text-align: right;
-        font-size: .95em !important;
-        font-family: 'Source Sans Pro', sans-serif;
-    }
-    .nav a:hover {
-        color: #febe10 !important;
-    }
-    .mobile_border {
-        border-bottom: 1px solid #f78546;
-    }
-}*/
 
 
 /*IPHONE 5*/
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
-    .icon-bar {
-        background-color: #f1f3f6;
-        margin-top: 20%;
-    }
+  .icon-bar {
+      margin-top: 20%;
+  }
     .main_logo_size {
         height: 5vh;
     }
     .main_logo {
         margin-left: 10%;
+        margin-top: 3.5%;
     }
     .main_container {
-        background-color: #FEFFFF;
         margin-top: 20%;
         padding-bottom: 2%;
         padding-top: 5%;
@@ -541,7 +211,6 @@ label {
         height: 8vh;
         margin-left: -5%;
         margin-top: 10%;
-        display: inline-block;
     }
     .button_style {
         width: 40%;
@@ -552,22 +221,18 @@ label {
         margin-top: 4%;
     }
     .mobile-footer {
-        color: #aeb5be !important;
-        font-family: 'Source Sans Pro', sans-serif;
-        margin-left: 10%;
-        font-size: .8em;
-        display: inline-block;
-        vertical-align: top;
+      margin-left: 10%;
+      font-size: .8em;
+      display: inline-block;
+      vertical-align: top;
     }
-    .mobile-footer:hover {
-        color: #f1f3f6 !important;
-    }
+
     .newsletter_header_text {
         font-size: 1.5em;
     }
     .services_text_style {
         font-size: 2em;
-        font-weight: bold;
+        margin-left: 10%;
     }
     .footer_container {
         background-color: #323e48;
@@ -588,9 +253,7 @@ label {
     }
 
     .mobile_location_top {
-        text-align: right;
-        font-size: .95em !important;
-        font-family: 'Source Sans Pro', sans-serif;
+      text-align: right;
     }
 
 
