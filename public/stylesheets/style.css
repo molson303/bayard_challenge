@@ -184,10 +184,92 @@ label {
 
 /*END BOTTOM CONTAINER*/
 
+@media only screen and (min-device-width: 371px) and (max-device-width: 400px) {
+  .icon-bar {
+      margin-top: 20%;
+  }
+  .main_logo_size {
+      height: 5vh;
+  }
+  .main_logo {
+      margin-left: 10%;
+      margin-top: 3.5%;
+  }
+  .main_container {
+      margin-top: 20%;
+      padding-bottom: 2%;
+      padding-top: 5%;
+  }
+  .middle_container {
+      padding-bottom: 5%;
+  }
+  .services_image {
+      height: 8vh;
+      margin-top: 10%;
+  }
+  .service_main_text_location {
+      margin-left: 5%;
+  }
+  .services_text_style {
+      font-size: 2em;
+      margin-left: 10%;
+  }
+  .button_style {
+      width: 40%;
+      margin-left: -60%;
+  }
+  .copyright {
+      text-align: center;
+      margin-top: 4%;
+  }
+  .mobile-footer {
+      font-size: .8em;
+      display: inline-block;
+      vertical-align: top;
+      margin-left: 4%;
+  }
+  .mobile-footer1{
+    margin-left: 20%;
+  }
+  .newsletter_header_text {
+      font-size: 1.5em;
+  }
+  .bottom_container {
+      padding-bottom: 4%;
+  }
+  .footer_container {
+      padding-top: 3%;
+  }
+  .newsletter_container {
+      margin-top: 7%;
+      width: 90%;
+      margin-left: 5%;
+      padding-bottom: 3%;
+  }
+  .newsletter_header_text {
+      font-size: 1.2em;
+  }
+  .mobile_location_top {
+      text-align: right;
+  }
+  .newsletter_text_container {
+      margin-top: -10%;
+      margin-left: 5%;
+      margin-right: 5%;
+  }
+  .submit-btn-location {
+      margin-left: 5%;
+      margin-right: 5%;
+  }
+  .submit-btn-style{
+    font-size: 1.2em;
+  }
+}
 
-/*IPHONE 5*/
 
-@media only screen and (min-device-width: 319px) and (max-device-width: 424px) {
+
+
+@media only screen and (min-device-width: 319px) and (max-device-width: 370px) {
     .icon-bar {
         margin-top: 20%;
     }
@@ -267,3 +349,4 @@ label {
     .submit-btn-style{
       font-size: 1.2em;
     }
+}
