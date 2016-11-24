@@ -167,7 +167,8 @@ label {
 .mobile-footer {
     color: #aeb5be;
     font-family: 'Source Sans Pro', sans-serif;
-}
+    display: inline-block;
+  }
 
 .newsletter_container {
     border: 1px solid #f78546;
@@ -186,7 +187,7 @@ label {
 
 /*IPHONE 5*/
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
+@media only screen and (min-device-width: 319px) and (max-device-width: 424px) {
     .icon-bar {
         margin-top: 20%;
     }
@@ -225,10 +226,13 @@ label {
         margin-top: 4%;
     }
     .mobile-footer {
-        margin-left: 10%;
         font-size: .8em;
         display: inline-block;
         vertical-align: top;
+        margin-left: 4%;
+    }
+    .mobile-footer1{
+      margin-left: 15%;
     }
     .newsletter_header_text {
         font-size: 1.5em;
