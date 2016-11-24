@@ -14,8 +14,6 @@
 
 .main_container {
     background-color: #FEFFFF;
-    margin-top: 7%;
-    padding-bottom: 2%;
 }
 
 .services_text_style {
@@ -30,22 +28,19 @@
 }
 
 .nav a:hover {
-    background-color: transparent !important;
-    color: #323e48 !important;
+    background-color: transparent;
+    color: #323e48;
 }
 
 .main_logo {
-    margin-top: 5%;
-    margin-bottom: 5%;
+
 }
 
 
 /*MIDDLE CONTAINER */
 
 .middle_container {
-    padding-top: 3%;
     background-color: #F0F4F7;
-    padding-bottom: 2%;
     border-top: 2px solid #CED5DC;
     border-bottom: 2px solid #CED5DC;
 }
@@ -57,13 +52,11 @@
 }
 
 .middle_title_text {
-    margin-left 3%;
     font-family: 'Lora', serif;
     font-weight: 600;
 }
 
 .button_style {
-    width: 12%;
     color: #fff;
     background-color: #febe10;
 }
@@ -74,11 +67,9 @@
 }
 
 .learn_button_location {
-    padding-top: 3%;
 }
 
 .service_spacer {
-    margin-top: 5%;
 }
 
 
@@ -89,23 +80,16 @@
 
 .bottom_container {
     background-color: #d4631c;
-    height: 50vh;
 }
 
 .newsletter_container {
     border: 1px solid #f78546;
-    border-radius: 5%;
     background-color: #d4631c;
-    margin-top: 4%;
-    width: 40%;
-    padding-bottom: 1%;
-    margin-left: 30%;
 }
 
 .newsletter_text_container {
     background-color: #d4631c;
-    margin-left: 9%;
-    margin-right: 9%;
+
 }
 
 .newsletter_header_text {
@@ -113,7 +97,6 @@
     font-family: 'Lora', serif;
     position: relative;
     z-index: 1;
-    margin-top: -4%;
 }
 
 input {
@@ -137,16 +120,16 @@ label {
 }
 
 .submit-btn-style {
-    font-weight: bold !important;
+    font-weight: bold;
     letter-spacing: .5px;
     color: #f1f3f6;
     background-color: #febe10;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.2em !important;
+    font-size: 1.2em;
 }
 
 .submit-btn-style:hover {
-    color: #f1f3f6 !important;
+    color: #f1f3f6;
     background-color: #323e48;
 }
 
@@ -158,8 +141,7 @@ label {
 .copyright {
     font-family: 'Lora', serif;
     color: #aeb5be;
-    margin-top: 10%;
-    margin-bottom: 6%;
+
 }
 
 .footer_text_color {
@@ -176,13 +158,13 @@ label {
 }
 
 .footer_text_color li a:hover {
-    color: #fff !important;
+    color: #fff;
 }
 
 
 /*END BOTTOM CONTAINER*/
 
-@media only screen and (min-device-width: 1824px) {
+/*@media only screen and (min-device-width: 1824px) {
     .spacer {
         margin-left: 70% !important;
     }
@@ -225,11 +207,11 @@ label {
         float: right;
         margin-top: 4%;
     }
-}
+}*/
 
 
 /*MEDIUM SCREENS*/
-
+/*
 @media only screen and (min-device-width: 1001px) {
     .main_logo {
         margin-left: 25%;
@@ -277,12 +259,12 @@ label {
         float: right;
         margin-top: 2%;
     }
-}
+}*/
 
 
 /*IPAD*/
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1000px) {
+/*@media only screen and (min-device-width: 768px) and (max-device-width: 1000px) {
     .main_logo {
         margin-left: 25%;
     }
@@ -330,12 +312,12 @@ label {
         float: right;
         margin-top: 3%;
     }
-}
+}*/
 
 
 /*IPHONE 6 PLUS*/
 
-@media only screen and (min-device-width: 414px) and (max-device-width: 767px) {
+/*@media only screen and (min-device-width: 414px) and (max-device-width: 767px) {
     .bottom_container {
         height: 45vh;
         padding-top: 2%;
@@ -428,12 +410,12 @@ label {
     .mobile_border {
         border-bottom: 1px solid #f78546;
     }
-}
+}*/
 
 
 /*IPHONE 6*/
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+/*@media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
     .icon-bar {
         background-color: #f1f3f6;
         margin-top: 30%;
@@ -523,12 +505,12 @@ label {
     .mobile_border {
         border-bottom: 1px solid #f78546;
     }
-}
+}*/
 
 
 /*IPHONE 5*/
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
+/*@media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
     .icon-bar {
         background-color: #f1f3f6;
         margin-top: 20%;
@@ -618,4 +600,4 @@ label {
     .mobile_border {
         border-bottom: 1px solid #f78546;
     }
-}
+}*/
