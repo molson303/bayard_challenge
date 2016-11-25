@@ -182,6 +182,10 @@ label {
 }
 /*END BOTTOM CONTAINER*/
 
+
+
+
+
 @media only screen and (min-device-width: 406px) and (max-device-width: 500px) {
   .icon-bar {
       margin-top: 20%;
@@ -227,7 +231,7 @@ label {
       margin-left: 4%;
   }
   .mobile-footer1{
-    margin-left: 20%;
+    margin-left: 24%;
   }
   .newsletter_header_text {
       font-size: 1.5em;
