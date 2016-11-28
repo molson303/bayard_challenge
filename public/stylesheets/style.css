@@ -181,7 +181,7 @@ label {
     border: 1px solid #323e48;
 }
 /*END BOTTOM CONTAINER*/
-@media only screen and (min-width: 1228px) and (max-width: 1440px) {
+@media only screen and (min-width: 1228px)  {
   .main_logo_size {
       height: 5vh;
   }
