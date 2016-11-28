@@ -181,7 +181,7 @@ label {
     border: 1px solid #323e48;
 }
 /*END BOTTOM CONTAINER*/
-@media only screen and (min-device-width: 1228px) and (max-device-width: 1440px) {
+@media only screen and (min-width: 1228px) and (max-width: 1440px) {
   .main_logo_size {
       height: 5vh;
   }
@@ -252,7 +252,7 @@ label {
 
 
 
-@media only screen and (min-device-width: 1001px) and (max-device-width: 1227px) {
+@media only screen and (min-width: 1001px) and (max-width: 1227px) {
   .main_logo_size {
       height: 5vh;
   }
@@ -322,7 +322,7 @@ label {
 }
 
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1000px) {
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
   .main_logo_size {
       height: 5vh;
   }
@@ -387,7 +387,7 @@ label {
     margin-left: 10%;
   }
 }
-@media only screen and (min-device-width: 531px) and (max-device-width: 767px) {
+@media only screen and (min-width: 531px) and (max-width: 767px) {
   .main_logo_size {
       height: 5vh;
   }
@@ -471,7 +471,7 @@ label {
 
 
 
-@media only screen and (min-device-width: 501px) and (max-device-width: 530px) {
+@media only screen and (min-width: 501px) and (max-width: 530px) {
 
   .main_logo_size {
       height: 5vh;
@@ -555,7 +555,7 @@ label {
 
 
 
-@media only screen and (min-device-width: 406px) and (max-device-width: 500px) {
+@media only screen and (min-width: 406px) and (max-width: 500px) {
   .icon-bar {
       margin-top: 20%;
   }
@@ -641,7 +641,7 @@ label {
 
 
 
-@media only screen and (min-device-width: 371px) and (max-device-width: 405px) {
+@media only screen and (min-width: 371px) and (max-width: 405px) {
   .icon-bar {
       margin-top: 20%;
   }
@@ -726,7 +726,7 @@ label {
 
 
 
-@media only screen and (min-device-width: 319px) and (max-device-width: 370px) {
+@media only screen and (min-width: 319px) and (max-width: 370px) {
     .icon-bar {
         margin-top: 20%;
     }
