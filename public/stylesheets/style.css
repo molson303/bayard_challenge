@@ -178,11 +178,11 @@ label {
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
   }
-}
+
 
 .footer_container {
     background-color: #323e48 !important;
-    border: 1px solid #323e48;
+    /*border: 1px solid #323e48;*/
 }
 /*END BOTTOM CONTAINER*/
 @media only screen and (min-width: 1228px)  {
